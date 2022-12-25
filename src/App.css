@@ -1,0 +1,144 @@
+@media only screen and (max-width: 768px) {
+  .nav ul li {
+    font-size: small;
+  }
+}
+html {
+  background-color: #eee;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid rgb(80, 67, 67);
+  background-color: white;
+  display: flex;
+  flex-grow: 1;
+  align-content: center;
+  flex-direction: column;
+}
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 5px;
+}
+.header {
+  width: 100%;
+  background-color: rgb(135, 211, 216);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav {
+  width: 100%;
+
+  background-color: rgb(49, 52, 52);
+  display: flex;
+}
+
+.nav > label {
+  position: absolute;
+  left: -20000000;
+  visibility: hidden;
+}
+
+.nav input[type="text"] {
+  margin: 1%;
+  height: 30px;
+  width: 50%;
+  font-size: medium;
+}
+
+.nav ul {
+  list-style: none;
+  width: 50%;
+}
+
+.nav ul li {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  padding: 2% 4%;
+}
+
+.footer {
+  background-color: rgb(135, 211, 216);
+  display: grid;
+  place-content: center;
+}
+
+.footer p {
+  padding-top: 10px;
+}
+.post {
+  width: 90%;
+  margin: 10px;
+}
+
+.post-child {
+  border-bottom: 1px solid #575656;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+.postDetail {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+.Delete {
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  font-size: medium;
+  color: red;
+  border-radius: 0.3rem;
+}
+.Delete:hover {
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+
+.form {
+  width: 90%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+}
+
+.form input[type="text"] {
+  border-radius: 0.25rem;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.form textarea {
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+  height: 100px;
+}
+.form button {
+  height: 35px;
+  margin: 0 px;
+  font-size: medium;
+  color: green;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+.form button:hover {
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
+
+main,
+form {
+  width: 100%;
+  min-height: 100vh;
+}
+.mainpage {
+  overflow: auto;
+}

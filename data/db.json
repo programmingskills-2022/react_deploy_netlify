@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "number 2-qjhjh",
+      "datetime": "December 25, 2022 8:34:15 AM",
+      "body": "salam2 salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2salam2"
+    },
+    {
+      "id": 5,
+      "title": "post number four",
+      "datetime": "December 25, 2022 7:35:03 PM",
+      "body": "this is post number 4"
+    },
+    {
+      "id": 6,
+      "title": "post number three",
+      "datetime": "December 25, 2022 7:56:25 PM",
+      "body": "this is post number 3"
+    }
+  ]
+}
